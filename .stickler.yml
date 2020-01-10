@@ -10,3 +10,4 @@ files:
     - "Guardfile"
     - "Rakefile"
     - "spec/spec_helper.rb"
+    - "Gemfile.lock"
