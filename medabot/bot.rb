@@ -4,7 +4,7 @@ module Medabot
   class Bot < SlackRubyBot::Bot
     help do
       title 'Medabot'
-      desc 'This bot will pair two channel members, and ask them how they are.'\
+      desc 'This bot will pair two channel members, and ask them how they are.'
 
       command :match_partners do
         title 'Match'
@@ -15,6 +15,16 @@ module Medabot
         title 'How are you?'
         desc 'It asks you how do you feel and answers according to what you said earlier'
         long_desc 'It asks you how do you feel and answers according to what you said earlier'
+      end
+      command :hi do
+        title 'Hi'
+        desc 'It tells the client what the bot can do'
+        long_desc 'It tells the client what the bot can do'
+      end
+      command :wolf do
+        title 'Hi'
+        desc 'It processes a wolfram query'
+        long_desc 'It processes a wolfram query'
       end
     end
   end
