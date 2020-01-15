@@ -4,8 +4,6 @@ require 'slack-ruby-bot'
 require 'dotenv'
 require 'wolfram'
 require 'uri'
-require 'http'
-require 'json'
 
 require_relative '../lib/commands/hi.rb'
 require_relative '../lib/commands/image.rb'
