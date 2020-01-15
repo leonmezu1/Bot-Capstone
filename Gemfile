@@ -10,3 +10,15 @@ gem 'puma'
 gem 'rubocop'
 gem 'slack-ruby-bot'
 gem 'wolfram'
+
+group :development, :test do
+  gem 'foreman'
+  gem 'rake'
+end
+
+group :test do
+  gem 'rack-test'
+  gem 'rspec'
+  gem 'vcr'
+  gem 'webmock'
+end
