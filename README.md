@@ -101,6 +101,8 @@ The bot also is equiped with two commands that allow you to see the 5 latest new
 
 - ### Wolfram Query
 
+![Step9](img/wolfram.gif)
+
 ## Built With
 
 This project has been developed with:
