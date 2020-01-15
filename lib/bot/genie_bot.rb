@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
-module Medabot
+module Geniebot
+  # Bot Documentation
   class Bot < SlackRubyBot::Bot
     help do
       title 'Medabot'
@@ -13,15 +14,17 @@ module Medabot
       end
       command :meet do
         title 'How are you?'
-        desc 'It asks you how do you feel and answers according to what you said earlier'
-        long_desc 'It asks you how do you feel and answers according to what you said earlier'
+        desc 'It asks you how do you feel and answers according to what you said
+				earlier'
+        long_desc 'It asks you how do you feel and answers according to what you
+				 said earlier'
       end
       command :hi do
         title 'Hi'
         desc 'It tells the client what the bot can do'
         long_desc 'It tells the client what the bot can do'
       end
-      command :wolf do
+      command :query do
         title 'Hi'
         desc 'It processes a wolfram query'
         long_desc 'It processes a wolfram query'
