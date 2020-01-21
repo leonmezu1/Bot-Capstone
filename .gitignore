@@ -1,0 +1,2 @@
+# ignore important API tokens to avoid security flaws
+.env
