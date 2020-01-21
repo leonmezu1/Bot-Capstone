@@ -29,5 +29,33 @@ RSpec.describe 'GenieBot' do
       message: "#{SlackRubyBot.config.user} hi"
     ).to respond_with_slack_message('Hi! this is a Bot, type help to see useful'\
      'commands')
+	end
+	
+	it 'Ignores unknown commands' do
+    expect(message: "#{SlackRubyBot.config.user} unknown").to respond_with_slack_message("Sorry <@user>, I don't understand that command!")
+  end
+
+  it 'Post the last NASA picture url (match *http pattern verification)', :vcr do
+    expect(
+      message: "#{SlackRubyBot.config.user} nasa_last_img"
+    ).to respond_with_slack_message(/http:/)
+  end
+
+  it 'Post the last NASA picture url (match *www pattern verification)', :vcr do
+    expect(
+      message: "#{SlackRubyBot.config.user} nasa_last_img"
+    ).to respond_with_slack_message(/www/)
+  end
+
+  it 'Post the last NASA picture url (match *gov pattern verification)', :vcr do
+    expect(
+      message: "#{SlackRubyBot.config.user} nasa_last_img"
+    ).to respond_with_slack_message(/gov/)
+  end
+
+  it 'Post the last NASA picture url (match *nasa pattern verification)', :vcr do
+    expect(
+      message: "#{SlackRubyBot.config.user} nasa_last_img"
+    ).to respond_with_slack_message(/nasa/)
   end
 end
