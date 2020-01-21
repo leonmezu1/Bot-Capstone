@@ -13,11 +13,8 @@ gem 'wolfram'
 
 group :development, :test do
   gem 'foreman'
-  gem 'rake'
-end
-
-group :test do
   gem 'rack-test'
+  gem 'rake'
   gem 'rspec'
   gem 'vcr'
   gem 'webmock'
