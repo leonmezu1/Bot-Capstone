@@ -32,7 +32,8 @@ RSpec.describe 'GenieBot' do
   end
 
   it 'Ignores unknown commands' do
-    expect(message: "#{SlackRubyBot.config.user} unknown").to respond_with_slack_message("Sorry <@user>, I don't understand that command!")
+    expect(message: "#{SlackRubyBot.config.user} unknown").to respond_with_slack_message('Sorry <@user>,'\
+    " I don't understand that command!")
   end
 
   it 'Post the last NASA picture url (match *http pattern verification)', :vcr do
