@@ -48,7 +48,7 @@ You can give a look to the project's road map documentation here: [ROAD-MAP](doc
   
 - ### **UPDATE**
 
-  - The Slack APP and the Wolfram APP API token creation is explained in detail in the [Useful information](documentation/Useful%20Information.md) section, you are welcome to give it a look if further explanation is needed
+  - The Slack APP and the Wolfram APP API token creation is explained in detail in the [Useful information](documentation/Useful%20Information.md) section, you are welcome to give it a look if further explanation is needed.
 
    ![Step1](img/Create1.png)
 
