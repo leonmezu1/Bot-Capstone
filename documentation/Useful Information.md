@@ -8,7 +8,7 @@
 - ### To succesfuly create a SLACK APP you can jump into: [SLACK CREATE](https://api.slack.com/apps)
 
   - _Remember to create a slack account and workspace first 👀_
-  - _**Update** you can now jump directly to the bot creating here: ↙_
+  - _**Update** you can now jump directly to the bot creation here: ↙_
     - [Create Bot](https://neuron-automation.slack.com/apps/new/A0F7YS25R-bots)
 
   ![Create1.1](../img/Create1.1.png)
