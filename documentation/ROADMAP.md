@@ -13,7 +13,7 @@
 
 - [x] The project passes the Rspec tests
 
-### __Corrections to fix, after the project's review__
+### __Fixes after the project's review__
 
 - [x] Please add the Ruby version you are using in the documentation or a .ruby-version file in the root of your project.
   - _Version file is now present in te root and README_
