@@ -45,6 +45,8 @@
 
 - ### **First comes first, it's time to create a wolfram account**
 
+  - [Create your account here!](https://account.wolfram.com/auth/sign-in)
+
   ![Create3.1](../img/Create3.1.png)
 
 - ### **Now create a wolfram APP**
