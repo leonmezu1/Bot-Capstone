@@ -5,7 +5,7 @@
   <h2 align="center">Ruby Capstone Project: <strong></Ruby>GenieBot a powerful Slack Bot</strong></h2>
   <p align="center">
   <br />
-    <a href="https://github.com/leonmezu1/Bot-Capstone/tree/Feature-1----Bot-setup"> Explore the repo</a> - <a href="https://github.com/leonmezu1/Bot-Capstone/issues">Report Bug »</a>
+    <a href="https://github.com/leonmezu1/Bot-Capstone/tree/Feature-1----Bot-setup"> Explore the repo</a> - <a href="https://github.com/leonmezu1/Bot-Capstone/issues">Report Bugs »</a>
   <br />
   </p>
 </p>
@@ -20,6 +20,7 @@
 <!-- INDEX -->
 
 - [About The Project](#about-the-project)
+- [Road map](#road-map)
 - [Prerequisites and Instructions](#prerequisites-and-instructions)
 - [Run Commands](#run-commands)
 - [Built With](#built-with)
@@ -34,11 +35,19 @@ This slack bot uses the powerful wolfram alpha engine API, which allows you to s
 
 The bot also is equiped with two commands that allow you to see the 5 latest news from the NASA and also the NASA'S picture of the day. 🌌
 
+## Road map
+
+You can give a look to the project's road map documentation here: [ROAD-MAP](documentation/ROADMAP.md)
+
 ## Prerequisites and Instructions
 
 - ### Create a Slack workspace in: [Slack create](https://slack.com/create#email)
 
 - ### Create a new Slack APP in: [Slack create app](https://api.slack.com/apps?new_app=1)
+  
+- ### **UPDATE**
+
+  - The Slack APP and the Wolfram APP API token creation is explained in detail in the [Useful information](documentation/Useful%20Information.md) section, you are welcome to give it a look if further explanation is needed 😉
 
    ![Step1](img/Create1.png)
 
