@@ -26,6 +26,7 @@
 - [Built With](#built-with)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
+	- [RUBY Version: ruby 2.6.3p62](#ruby-version-ruby-263p62)
 
 <!-- ABOUT THE PROJECT -->
 
@@ -152,6 +153,8 @@ Leonardo Mezu - [Leonardo Mezu L.](https://github.com/leonmezu1)
 <!-- ACKNOWLEDGEMENTS -->
 
 ## Acknowledgements
+
+### RUBY Version: ruby 2.6.3p62
 
 - [Slack-Ruby GEM](https://github.com/slack-ruby/slack-ruby-bot)
 - [Slack](https://slack.com/intl/en-co/)
