@@ -9,7 +9,7 @@
 
   - _Remember to create a slack account and workspace first 👀_
   - _**Update** you can now jump directly to the bot creation here: ↙_
-    - [Create Bot](https://neuron-automation.slack.com/apps/new/A0F7YS25R-bots)
+    - [Create Bot](http://slack.com/services/new/bot)
 
   ![Create1.1](../img/Create1.1.png)
 
