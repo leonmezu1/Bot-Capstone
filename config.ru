@@ -16,7 +16,7 @@ module Geniebot
       hash.fetch(:pods, {}).each do |key, values|
         next if values.join('') == ''
 
-        callback.push( "\n" + key + "\n"
+        callback.push("\n" + key + "\n")
         callback.push(values.join("\n"))
       end
 
@@ -24,7 +24,7 @@ module Geniebot
         client.message text: callback, channel: data.channel
       else
         client.message text: "
-          No results were found that query. :( \n
+          No results were found that query.\n
           You might want to try https://google.com/?q=#{URI.escape(_match[:expression])}+!google", # rubocop: disable Lint/UriEscapeUnescape
                        channel: data.channel
       end

@@ -25,7 +25,7 @@ Style/ClassAndModuleChildren:
 
 Layout/EndOfLine:
   EnforcedStyle: lf
-Metrics/LineLength:
+Layout/LineLength:
   Max: 120
 Layout/ExtraSpacing:
   AllowForAlignment: false

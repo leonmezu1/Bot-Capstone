@@ -5,7 +5,7 @@
   <h2 align="center">Ruby Capstone Project: <strong></Ruby>GenieBot a powerful Slack Bot</strong></h2>
   <p align="center">
   <br />
-    <a href="https://github.com/leonmezu1/Bot-Capstone/tree/Feature-1----Bot-setup"> Explore the repo</a> - <a href="https://github.com/leonmezu1/Bot-Capstone/issues">Report Bug »</a>
+    <a href="https://github.com/leonmezu1/Bot-Capstone/tree/Feature-1----Bot-setup"> Explore the repo</a> - <a href="https://github.com/leonmezu1/Bot-Capstone/issues">Report Bugs »</a>
   <br />
   </p>
 </p>
@@ -20,11 +20,13 @@
 <!-- INDEX -->
 
 - [About The Project](#about-the-project)
+- [Road map](#road-map)
 - [Prerequisites and Instructions](#prerequisites-and-instructions)
 - [Run Commands](#run-commands)
 - [Built With](#built-with)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
+	- [RUBY Version: ruby 2.6.3p62](#ruby-version-ruby-263p62)
 
 <!-- ABOUT THE PROJECT -->
 
@@ -34,27 +36,36 @@ This slack bot uses the powerful wolfram alpha engine API, which allows you to s
 
 The bot also is equiped with two commands that allow you to see the 5 latest news from the NASA and also the NASA'S picture of the day. 🌌
 
+## Road map
+
+You can give a look to the project's road map documentation here: [ROAD-MAP](documentation/ROADMAP.md)
+
 ## Prerequisites and Instructions
 
 - ### Create a Slack workspace in: [Slack create](https://slack.com/create#email)
 
 - ### Create a new Slack APP in: [Slack create app](https://api.slack.com/apps?new_app=1)
+  
+- ### **UPDATE!**
 
-   ![Step1](img/Create1.png)
+  - The Slack APP and the Wolfram APP API token creation is explained in detail in the [Useful information](documentation/Useful%20Information.md) section, you are welcome to give it a look if further explanation is needed.
 
-  - Generate the APP key to succesfuly log the API
-
-  ![Step2](img/Create2.png)
-
-  - After this the bot initial setup should be done.
-
-- ### Create a new Wolfram Alpha App in: [Wolfram create app](http://developer.wolframalpha.com/portal/myapps/index.html)
-
-   ![Step3](img/Create3.png)
-
-  - Now you can obtain your API Id.
-
-  ![Step4](img/Create4.png)
+>
+> ![Step1](img/Create1.png)
+>
+> - Generate the APP key to succesfuly log the API
+>
+> ![Step2](img/Create2.png)
+>
+> - After this the bot initial setup should be done.
+>
+> - ### Create a new Wolfram Alpha App in: [Wolfram create app](http://developer.wolframalpha.com/portal/myapps/index.html)
+>
+> ![Step3](img/Create3.png)
+>
+> - Now you can obtain your API Id.
+>
+> ![Step4](img/Create4.png)
 
 - ### **To run this bot locally first perform this operations:**
 
@@ -143,6 +154,8 @@ Leonardo Mezu - [Leonardo Mezu L.](https://github.com/leonmezu1)
 <!-- ACKNOWLEDGEMENTS -->
 
 ## Acknowledgements
+
+### RUBY Version: ruby 2.6.3p62
 
 - [Slack-Ruby GEM](https://github.com/slack-ruby/slack-ruby-bot)
 - [Slack](https://slack.com/intl/en-co/)
