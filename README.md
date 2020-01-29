@@ -46,25 +46,26 @@ You can give a look to the project's road map documentation here: [ROAD-MAP](doc
 
 - ### Create a new Slack APP in: [Slack create app](https://api.slack.com/apps?new_app=1)
   
-- ### **UPDATE**
+- ### **UPDATE!**
 
   - The Slack APP and the Wolfram APP API token creation is explained in detail in the [Useful information](documentation/Useful%20Information.md) section, you are welcome to give it a look if further explanation is needed.
 
-   ![Step1](img/Create1.png)
-
-  - Generate the APP key to succesfuly log the API
-
-  ![Step2](img/Create2.png)
-
-  - After this the bot initial setup should be done.
-
-- ### Create a new Wolfram Alpha App in: [Wolfram create app](http://developer.wolframalpha.com/portal/myapps/index.html)
-
-   ![Step3](img/Create3.png)
-
-  - Now you can obtain your API Id.
-
-  ![Step4](img/Create4.png)
+>
+> ![Step1](img/Create1.png)
+>
+> - Generate the APP key to succesfuly log the API
+>
+> ![Step2](img/Create2.png)
+>
+> - After this the bot initial setup should be done.
+>
+> - ### Create a new Wolfram Alpha App in: [Wolfram create app](http://developer.wolframalpha.com/portal/myapps/index.html)
+>
+> ![Step3](img/Create3.png)
+>
+> - Now you can obtain your API Id.
+>
+> ![Step4](img/Create4.png)
 
 - ### **To run this bot locally first perform this operations:**
 
