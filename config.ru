@@ -4,7 +4,7 @@ require_relative 'config/environment.rb'
 require_relative 'lib/bot/genie_bot.rb'
 Dotenv.load
 
-# module API APP ID under work
+# module API authenfication working with wolfram
 module Geniebot
   # Search Engine
   class WolframSearch < SlackRubyBot::Commands::Base
