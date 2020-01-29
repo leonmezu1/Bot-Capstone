@@ -10,23 +10,22 @@ module Geniebot
   class WolframSearch < SlackRubyBot::Commands::Base
     Wolfram.appid = ENV['WOLFRAM_APPID']
     command 'wolfram' do |client, data, _match| # rubocop: disable Lint/UnderscorePrefixedVariableName
-      q = _match[:expression]
-      result = Wolfram::Query.new(q).fetch
-      hash = Wolfram::HashPresenter.new(result).to_hash
-      result = ''
+      callback = Wolfram::Query.new(_match[:expression]).fetch
+      hash = Wolfram::HashPresenter.new(callback).to_hash
+      callback = ''
       hash.fetch(:pods, {}).each do |key, values|
         next if values.join('') == ''
 
-        result << "\n" + key + "\n"
-        result << values.join("\n")
+        callback.push( "\n" + key + "\n"
+        callback.push(values.join("\n"))
       end
 
-      if result != ''
-        client.message text: result, channel: data.channel
+      if callback != ''
+        client.message text: callback, channel: data.channel
       else
         client.message text: "
-          No results found for #{q}. \n
-          Try https://google.com/?q=#{URI.escape(q)}+!google", # rubocop: disable Lint/UriEscapeUnescape
+          No results were found that query. :( \n
+          You might want to try https://google.com/?q=#{URI.escape(_match[:expression])}+!google", # rubocop: disable Lint/UriEscapeUnescape
                        channel: data.channel
       end
     end
