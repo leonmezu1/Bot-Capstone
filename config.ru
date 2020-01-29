@@ -13,19 +13,19 @@ module Geniebot
       callback = Wolfram::Query.new(_match[:expression]).fetch
       hash = Wolfram::HashPresenter.new(callback).to_hash
       callback = ''
-      hash.fetch(:pods, {}).each do |key, values|
-        next if values.join('') == ''
+      hash.fetch(:pods, {}).each do |k, v|
+        next if v.join('').eql?('')
 
-        callback.push("\n" + key + "\n")
-        callback.push(values.join("\n"))
+        callback << ("\n" + k + "\n")
+        callback << (v.join("\n"))
       end
 
-      if callback != ''
+      unless callback.eql?('')
         client.message text: callback, channel: data.channel
       else
         client.message text: "
           No results were found that query.\n
-          You might want to try https://google.com/?q=#{URI.escape(_match[:expression])}+!google", # rubocop: disable Lint/UriEscapeUnescape
+          You might want to try https://google.com/?q=#{(_match[:expression]).split(' ').join('+')}", # rubocop: disable Lint/UriEscapeUnescape
                        channel: data.channel
       end
     end
