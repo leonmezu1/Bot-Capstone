@@ -26,7 +26,7 @@ module Geniebot
         client.message text: "
           No results were found that query.\n
           You might want to try https://google.com/?q=#{URI.escape(_match[:expression])}+!google", # rubocop: disable Lint/UriEscapeUnescape
-          channel: data.channel
+                       channel: data.channel
       end
     end
   end
